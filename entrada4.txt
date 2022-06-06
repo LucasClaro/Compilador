@@ -1,0 +1,29 @@
+inicio
+  numero n;
+  numero m;
+  m = 1;
+  n = 42 * 2;
+  n = n + m;
+  print (string "Oi");
+  print (numero n / 5);
+  bool minhaVar;
+  minhaVar = true;
+  print (bool minhaVar);
+  print (numero 9 % 5);
+  print (numero 2 ** 3);
+  print (numero -2);
+  print (numero 2 + 3 * 4);
+  print (numero 2 * 3 + 4);
+  print (numero 2 * (4 + 4));
+  print (numero (8 / (2 + 2)) * (10 + 4));
+  print (string " ");
+  print (bool true && false);
+  print (bool true && true);
+  print (bool false && false);
+  print (string " ");
+  print (bool true || false);
+  print (bool true || true);
+  print (bool false || false);
+  print (bool false && true || true);
+  print (bool true && false || true);
+fim

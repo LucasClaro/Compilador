@@ -1,0 +1,11 @@
+inicio
+  if (false) {
+    while (x > 5 ** 2) {
+    print "Oi";
+    }
+  }
+  else {
+    print false;
+  }
+numero x1;
+fim
