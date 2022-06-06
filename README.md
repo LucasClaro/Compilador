@@ -8,7 +8,8 @@ gcc main.cpp -lstdc++
 
 ## Linguagem:
 
-\<programa\> ::= "inicio" \<comando\>* "fim"
+```
+<programa> ::= "inicio" <comando>* "fim"
 <comando> ::= (<declaracao> | <atribuicao> | <if> | <while> | <print>)
 <declaracao> ::= ("numero" | "string" | "bool") <identificador> ";"
 <atribuicao> ::= <identificador> "=" (<OpMatematica> | <OpLogica> | <string>) ";"
@@ -32,3 +33,4 @@ gcc main.cpp -lstdc++
 
 <baseString> ::= (<string> | <identificador>)
 <string> ::= " ... "
+```
